@@ -16,8 +16,7 @@
             return $http({
                 method: 'POST',
                 url: url,
-                data: data,
-                headers: {'Content-Type': 'application/x-www-form-urlencoded'}
+                data: data
             });
         }
 

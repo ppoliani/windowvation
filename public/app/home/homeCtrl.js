@@ -5,17 +5,9 @@
     'use strict';
 
     function HomeCtrl(serviceClient){
+        this.records = serviceClient.records
 
-        // region Inner Fields
-
-
-        // endregion
-
-        // region Viewmodel
-
-
-        // endregion
-
+        serviceClient.start();
     }
 
     // region CommonJS

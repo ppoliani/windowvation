@@ -48,6 +48,8 @@
         function _findHttpMethod(response){
             var result = HTTP_METHOD_REGEX.exec(response);
 
+            HTTP_METHOD_REGEX.lastIndex = 0; // Reset
+
             if(!result.length){
                 throw new Error('Wrong response; no method found');
             }
@@ -66,6 +68,8 @@
         function _findUrl(response){
             var result = URL_REGEX.exec(response);
 
+            URL_REGEX.lastIndex = 0; // Reset
+
             if(!result.length){
                 throw new Error('Wrong response; no url found');
             }
@@ -83,6 +87,8 @@
          */
         function _getOperation(response){
             var result = OPERATION_REGEX.exec(response);
+
+            OPERATION_REGEX.lastIndex = 0; // Reset
 
             if(!result.length){
                 throw new Error('Wrong response; no operation found');
