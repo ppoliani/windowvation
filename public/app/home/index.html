@@ -1,3 +1,43 @@
 <section class="page">
+    <section class="grid__wrapper">
+        <ul class="grid__table">
+            <!-- Header -->
+            <li class="http-table__header-row grid__row">
+                <div class="grid__header">
+                    <div class="grid__data">#</div>
+                </div>
+                <div class="grid__header">
+                    <div class="grid__data">URL</div>
+                </div>
+                <div class="grid__header">
+                    <div class="grid__data">Http Method</div>
+                </div>
+                <div class="grid__header">
+                    <div class="grid__data">Http Request</div>
+                </div>
+                <div class="grid__header">
+                    <div class="grid__data">Http Response</div>
+                </div>
+            </li>
 
+            <!-- Data -->
+            <li class="grid__row" ng-repeat="record in vm.records">
+                <div class="grid__cell ">
+                    <div class="grid__data">{{ $index + 1 }}</div>
+                </div>
+                <div class="grid__cell ">
+                    <div class="grid__data">{{ record.url }}</div>
+                </div>
+                <div class="grid__cell ">
+                    <div class="grid__data">{{ record.httpMethod }}</div>
+                </div>
+                <div class="grid__cell ">
+                    <div class="grid__data">{{ record.httpRequest }}</div>
+                </div>
+                <div class="grid__cell ">
+                    <div class="grid__data">{{ record.httpResponse }}</div>
+                </div>
+            </li>
+        </ul>
+    </section>
 </section>

@@ -4,12 +4,7 @@
 (function(){
     'use strict';
 
-    function HomeCtrl(){
-
-        // region Setup
-
-
-        // endregion
+    function HomeCtrl(serviceClient){
 
         // region Inner Fields
 
@@ -28,6 +23,7 @@
     module.exports = {
         name: 'homeCtrl',
         ctrl: [
+            'serviceClient',
             HomeCtrl
         ]
     };
