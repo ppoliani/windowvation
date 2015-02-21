@@ -4,16 +4,25 @@
 (function(){
     'use strict';
 
-    function httpService(){
+    function httpService($http){
 
         // region Inner Methods
+
+        function get(url){
+            return $http.get(url);
+        }
+
+        function post(url, payload){
+            return $http.post(url, payload);
+        }
 
         // endregion
 
         // region Public API
 
         return {
-
+            get: get,
+            post: post
         };
 
         // endregion
@@ -24,7 +33,10 @@
     module.exports = {
         name: 'httpService',
         type: 'factory',
-        service: [httpService]
+        service: [
+            '$http',
+            httpService
+        ]
     };
 
     // endregion
