@@ -1,0 +1,8 @@
+# DEPENDENCIES
+node_modules
+public/third-party
+
+# LOGS/TEMPFILES
+npm-debug.log
+.DS_Store
+._*
