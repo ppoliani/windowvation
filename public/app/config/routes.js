@@ -16,7 +16,7 @@ function configure(app) {
         $routeProvider
             .when('/', {
                 templateUrl: _getPath('home/index'),
-                controller: 'homeCtrl as homeCtrl',
+                controller: 'homeCtrl as vm',
                 title: 'Rest Client'
             });
 

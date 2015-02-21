@@ -124,7 +124,7 @@
 	        $routeProvider
 	            .when('/', {
 	                templateUrl: _getPath('home/index'),
-	                controller: 'homeCtrl as homeCtrl',
+	                controller: 'homeCtrl as vm',
 	                title: 'Rest Client'
 	            });
 	
@@ -499,7 +499,7 @@
 	                    api.records.push({
 	                        url: url,
 	                        httpMethod: 'POST',
-	                        httpRequest: data,
+	                        httpRequest: data.name,
 	                        httpResponse: response
 	                    });
 	
@@ -532,28 +532,40 @@
 	        }
 	
 	        function _moveToAnswerStep(nextReqDetails){
-	            var answer = {
+	            var data = {
 	                    answer: mathOperationManager.getResult(nextReqDetails.operation)
 	                },
 	
 	                url = API_ENDPOINT + nextReqDetails.url;
 	
-	            httpService[nextReqDetails.httpMethod.toLowerCase()](url, answer)
+	            httpService[nextReqDetails.httpMethod.toLowerCase()](url, data)
 	                .success(function(response, status){
 	                    console.log('[' + status + '] ' + response);
 	
 	                    api.records.push({
 	                        url: url,
 	                        httpMethod: nextReqDetails.httpMethod,
-	                        httpRequest: answer,
+	                        httpRequest: data.answer,
 	                        httpResponse: response
 	                    });
 	
-	                    _moveToQuestionStep(responseParser.parseResponse(response));
+	                    if(!_hasReachedTheEnd(response)){
+	                        _moveToQuestionStep(responseParser.parseResponse(response));
+	                    }
 	                })
 	                .error(function(response, status){
 	                    console.error('[' + status + '] ' + response);
 	                });
+	        }
+	
+	        /**
+	         * Checks if the given reponse is the last one
+	         * @param response
+	         * @returns {boolean}
+	         * @private
+	         */
+	        function _hasReachedTheEnd(response){
+	            return response.indexOf('Well done') !== -1;
 	        }
 	
 	        // endregion
