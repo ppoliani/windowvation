@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8924f825-da8a-40c9-90d9-b0e7f9094a73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/tests/all.specs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/services/httpService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/services/mathOperationManager.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/tests/mathOperationManager.specs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/services/responseParser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/services/serviceClient.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/tests/utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/app.js.map" afterPath="$PROJECT_DIR$/public/dist/app.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/dist/app.js" afterPath="$PROJECT_DIR$/public/dist/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/core/constants.js" afterPath="$PROJECT_DIR$/public/app/core/constants.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/core/services.js" afterPath="$PROJECT_DIR$/public/app/core/services.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/services/mathOperationManager.js" afterPath="$PROJECT_DIR$/public/app/services/mathOperationManager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app/tests/mathOperationManager.specs.js" afterPath="$PROJECT_DIR$/public/app/tests/mathOperationManager.specs.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windowvation.iws" />
@@ -37,26 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mathOperationManager.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/services/mathOperationManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-              <caret line="35" column="38" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.specs.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/tests/all.specs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="utils.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/app/tests/utils.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,14 +38,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mathOperationManager.specs.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mathOperationManager.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/app/services/mathOperationManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6437177" vertical-offset="0" max-vertical-offset="901">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mathOperationManager.specs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/app/tests/mathOperationManager.specs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23407917" vertical-offset="0" max-vertical-offset="581">
-              <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="799">
+              <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
               <folding>
                 <element signature="e#171#233#0" expanded="false" />
-                <element signature="e#285#592#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -106,13 +86,13 @@
         <option value="$PROJECT_DIR$/public/app/partial/_header.html" />
         <option value="$PROJECT_DIR$/public/app/core/constants.js" />
         <option value="$PROJECT_DIR$/public/app/core/services.js" />
-        <option value="$PROJECT_DIR$/public/app/services/mathOperationManager.js" />
         <option value="$PROJECT_DIR$/public/app/services/httpService.js" />
         <option value="$PROJECT_DIR$/public/app/services/responseParser.js" />
         <option value="$PROJECT_DIR$/public/app/services/serviceClient.js" />
-        <option value="$PROJECT_DIR$/public/app/tests/mathOperationManager.specs.js" />
         <option value="$PROJECT_DIR$/public/app/tests/utils.js" />
         <option value="$PROJECT_DIR$/public/app/tests/all.specs.js" />
+        <option value="$PROJECT_DIR$/public/app/tests/mathOperationManager.specs.js" />
+        <option value="$PROJECT_DIR$/public/app/services/mathOperationManager.js" />
       </list>
     </option>
   </component>
@@ -702,22 +682,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/services/mathOperationManager.js">
+    <entry file="file://$PROJECT_DIR$/public/app/tests/mathOperationManager.specs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="782">
-          <caret line="35" column="38" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="38" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="218" max-vertical-offset="799">
+          <caret line="40" column="38" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+          <folding>
+            <element signature="e#171#233#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/app/tests/mathOperationManager.specs.js">
+    <entry file="file://$PROJECT_DIR$/public/app/services/mathOperationManager.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23407917" vertical-offset="0" max-vertical-offset="581">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#171#233#0" expanded="false" />
-            <element signature="e#285#592#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.6437177" vertical-offset="0" max-vertical-offset="901">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+          <folding />
         </state>
       </provider>
     </entry>
