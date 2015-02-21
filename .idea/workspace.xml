@@ -2,30 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8924f825-da8a-40c9-90d9-b0e7f9094a73" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/_base/_all.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/_gui/_all.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/_objects/_all.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/_settings/_all.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/core/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/assets/css/app.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/core/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/core/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/home/homeCtrl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/home/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/config/routeCallbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/config/routes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/app/core/services.js" />
-      <change type="DELETED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_base\_all.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_gui\_all.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_objects\_all.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_settings\_all.scss" afterPath="" />
-      <change type="DELETED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\app.scss" afterPath="" />
-      <change type="MOVED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_base\_reset.scss" afterPath="$PROJECT_DIR$/public/assets/css/_base/_reset.scss" />
-      <change type="MOVED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_base\_typography.scss" afterPath="$PROJECT_DIR$/public/assets/css/_base/_typography.scss" />
-      <change type="MOVED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_gui\_header.scss" afterPath="$PROJECT_DIR$/public/assets/css/_gui/_header.scss" />
-      <change type="MOVED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_objects\_grid.scss" afterPath="$PROJECT_DIR$/public/assets/css/_objects/_grid.scss" />
-      <change type="MOVED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_settings\_breakpoints.scss" afterPath="$PROJECT_DIR$/public/assets/css/_settings/_breakpoints.scss" />
-      <change type="MOVED" beforePath="C:\source code\windovation\windowvation\public\app\assets\css\_settings\_colors.scss" afterPath="$PROJECT_DIR$/public/assets/css/_settings/_colors.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/build_tasks/scriptsDev.js" afterPath="$PROJECT_DIR$/gulp/build_tasks/scriptsDev.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="windowvation.iws" />
@@ -50,91 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+      <file leaf-file-name="scriptsDev.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gulp/build_tasks/scriptsDev.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="510">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.3461537" vertical-offset="210" max-vertical-offset="918">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/core/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="services.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/core/services.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/core/controllers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constants.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/app/core/constants.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="582">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/app/config/routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="816">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="765">
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -160,6 +57,7 @@
         <option value="$PROJECT_DIR$/public/app/home/homeCtrl.js" />
         <option value="$PROJECT_DIR$/public/app/core/app.js" />
         <option value="$PROJECT_DIR$/public/app/core/services.js" />
+        <option value="$PROJECT_DIR$/gulp/build_tasks/scriptsDev.js" />
       </list>
     </option>
   </component>
@@ -223,7 +121,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="gulp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -237,33 +135,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
+              <option name="myItemId" value="gulp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windowvation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="windowvation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="build_tasks" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -553,14 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/app/config/routeCallbacks.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.116838485" vertical-offset="0" max-vertical-offset="582">
@@ -619,8 +487,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/app/core/constants.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17525773" vertical-offset="0" max-vertical-offset="582">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/build_tasks/css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/build_tasks/clean.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="438" max-vertical-offset="1020">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulp/build_tasks/scriptsDev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029209621" vertical-offset="0" max-vertical-offset="765">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
           <folding />
         </state>
       </provider>
