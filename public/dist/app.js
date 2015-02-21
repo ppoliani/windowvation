@@ -184,6 +184,10 @@
 	 * Loads all the services of the app
 	 */
 	module.exports = [
+	    __webpack_require__(8),
+	    __webpack_require__(9),
+	    __webpack_require__(10),
+	    __webpack_require__(11)
 	
 	];
 
@@ -195,7 +199,7 @@
 	module.exports = [{
 	  name: 'API_ENDPOINT',
 	  type: 'constant',
-	  service: 'http://localhost:8080/'
+	  service: 'http://windowvationquizserver.elasticbeanstalk.com/'
 	}];
 
 
@@ -240,6 +244,42 @@
 	    // endregion
 	
 	})();
+
+
+/***/ },
+/* 8 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Created by ppoliani on 21/02/2015.
+	 */
+
+
+/***/ },
+/* 9 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Created by ppoliani on 21/02/2015.
+	 */
+
+
+/***/ },
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Created by ppoliani on 21/02/2015.
+	 */
+
+
+/***/ },
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	/**
+	 * Created by ppoliani on 21/02/2015.
+	 */
 
 
 /***/ }
