@@ -1,5 +1,5 @@
 var webpack = require('gulp-webpack'),
-    replace = require('g'),
+    replace = require('gulp-replace-task'),
     concat  = require('gulp-concat'),
     uglify  = require('gulp-uglify');
 

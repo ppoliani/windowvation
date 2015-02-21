@@ -31,8 +31,7 @@ module.exports = function(config) {
         // preprocess matching files before serving them to the browser
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors: {
-            'app/tests/**/*.specs.js': ['webpack'],
-            'app/components/**/*.html': ['ng-html2js']
+            'app/tests/**/*.specs.js': ['webpack']
         },
 
 
@@ -104,8 +103,7 @@ module.exports = function(config) {
             require('karma-mocha'),
             require('karma-sinon-chai'),
             require('karma-chrome-launcher'),
-            require('karma-webpack'),
-            require('karma-ng-html2js-preprocessor')
+            require('karma-webpack')
         ]
     });
 };

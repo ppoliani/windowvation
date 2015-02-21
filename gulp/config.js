@@ -29,7 +29,7 @@ var
         }
     };
 
-bundles.sass = cssDir + '/app/*.scss';
+bundles.sass = cssDir + '/*.scss';
 
 bundles.testScripts = [
     libsDir + '/angular/angular.min.js',

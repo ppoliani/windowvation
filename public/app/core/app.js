@@ -18,15 +18,11 @@
         _mainModule = angular.module('app.core', [
             'ngRoute',
             'app.services',
-            'app.controllers',
-            'app.models',
-            'app.directives'
+            'app.controllers'
         ]),
 
         servicesModule = angular.module('app.services', []),
-        controllersModule = angular.module('app.controllers', []),
-        modelsModule = angular.module('app.models', []),
-        directivesModule = angular.module('app.directives', []);
+        controllersModule = angular.module('app.controllers', []);
 
     // endregion
 
@@ -40,24 +36,8 @@
 
     // region Register All Services
 
-    services.concat(constants).concat(values).forEach(function(service){
+    services.concat(constants).forEach(function(service){
         servicesModule[service.type](service.name, service.service);
-    });
-
-    // endregion
-
-    // region Register All Models
-
-    models.forEach(function(model){
-        modelsModule.factory(model.name, model.ctor);
-    });
-
-    // endregion
-
-    // region Register All Directives
-
-    directives.forEach(function(directive){
-        directivesModule.directive(directive.name, directive.directive);
     });
 
     // endregion
